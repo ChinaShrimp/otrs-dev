@@ -8,7 +8,7 @@ apt-get install -y libapache2-mod-perl2 libdbd-mysql-perl libtimedate-perl libne
 
 cd /opt
 git clone https://github.com/OTRS/otrs.git -b rel-5_0 
-mv otrs.git otrs
+git clone https://github.com/OTRS/module-tools.git
 
 useradd -d /opt/otrs -c 'OTRS user' otrs
 usermod -G www-data otrs
