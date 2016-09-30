@@ -1,2 +1,4 @@
 .vagrant
-opt/**
+module-tools/**
+otrs/**
+*.deb
