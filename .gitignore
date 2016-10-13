@@ -3,3 +3,4 @@ module-tools/**
 otrs/**
 *.deb
 otrs-client/**
+src/**
